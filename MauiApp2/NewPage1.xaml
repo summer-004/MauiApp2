@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.NewPage1"
+             Title="NewPage1">
+    <RefreshView x:Name="refreshView"
+                 Refreshing="refreshView_Refreshing" >
+        
+        <ScrollView>
+            <WebView x:Name="webview"
+                     Source="https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/refreshview?view=net-maui-8.0"/>
+            
+        </ScrollView>
+        
+    </RefreshView>
+</ContentPage>

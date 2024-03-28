@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<style name="MyTheme" parent="@style/Maui.SplashTheme">
+		<item name="android:background">#BEBEBE</item>
+		<item name="itemTextAppearanceInactive">@color/bottom_navigation_tint</item>
+		<item name="itemTextAppearanceActive">@color/bottom_navigation_tint</item>
+		<item name="itemIconTint">@color/bottom_navigation_tint</item>
+		<item name="itemTextColor">@color/bottom_navigation_tint</item>
+	</style>
+</resources>
+
